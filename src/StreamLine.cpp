@@ -2,8 +2,6 @@
 
 StreamLine::StreamLine (Option* option) {
     this->option = option;
-    option->seed[0] = ((double)std::rand()/RAND_MAX)*(option->xrange[1] - option->xrange[0]) + option->xrange[0];
-    option->seed[1] = ((double)std::rand()/RAND_MAX)*(option->yrange[1] - option->yrange[0]) + option->yrange[0];
     
     if (option->wideSeparation <= 0) {
         option->wideSeparation = 1.0 / std::max(option->xrange[1] - option->xrange[0], option->yrange[1] - option->yrange[0]);

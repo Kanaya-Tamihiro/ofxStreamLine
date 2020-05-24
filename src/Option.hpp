@@ -17,6 +17,8 @@ struct Option {
     double narrowSeparation = 0;
     double dt = 0.05;
     int stepsPerIteration = 10;
+    
+    void randomSeed();
 };
 
 #endif /* Option_hpp */

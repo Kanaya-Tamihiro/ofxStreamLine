@@ -10,6 +10,7 @@ void ofApp::setup(){
 //    option->wideSeparation = 0.05;
 //    option->narrowSeparation = 0.025;
 //    option->stepsPerIteration = 1;
+    option->randomSeed();
     option->vectorFunc = [](Vector point) {
         double x = point[0];
         double y = point[1];
