@@ -132,6 +132,7 @@ bool Stream::notifyPointAdded(Vector point) {
 
 Vector Stream::getVelocity (Vector point) {
     Vector p = option->vectorFunc(point);
+    if (p == ZERO_VECTOR) return p;
     p.normalize();
     return p;
 }
