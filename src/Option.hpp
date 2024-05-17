@@ -1,6 +1,7 @@
 #ifndef Option_hpp
 #define Option_hpp
 
+#include <functional>
 #include <stdio.h>
 #include "Vector.hpp"
 

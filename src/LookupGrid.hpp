@@ -2,6 +2,7 @@
 #define LookupGrid_hpp
 
 #include <vector>
+#include <functional>
 #include <stdio.h>
 #include "Vector.hpp"
 

@@ -1,6 +1,7 @@
 #ifndef Stream_hpp
 #define Stream_hpp
 
+#include <functional>
 #include <stdio.h>
 #include "LookupGrid.hpp"
 #include "Option.hpp"

@@ -36,7 +36,7 @@ double Vector::length() {
     return std::sqrt(x*x + y*y);
 }
 
-bool Vector::normalize() {
+void Vector::normalize() {
     double l = std::sqrt(x*x + y*y);
     x = x / l;
     y = y / l;

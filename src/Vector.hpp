@@ -1,6 +1,7 @@
 #ifndef Vector_hpp
 #define Vector_hpp
 
+#include <functional>
 #include <stdio.h>
 #include <iostream>
 
@@ -18,7 +19,7 @@ struct Vector {
     Vector operator-(Vector vector);
     Vector operator*(double scala);
     double length();
-    bool normalize();
+    void normalize();
 };
 
 #endif /* Vector_hpp */
